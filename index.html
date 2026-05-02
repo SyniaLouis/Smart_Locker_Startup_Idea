@@ -455,7 +455,7 @@
                 <p class="text-xs text-gray-500 mb-1">Current locker location:</p>
                 <p class="font-semibold text-gray-800 flex justify-center items-center gap-1"><span class="material-symbols-outlined text-sm text-brand">location_on</span> Binh Duong, Viet Nam</p>
             </div>
-            <button onclick="nav('screen-camera-barcode')" class="w-full bg-white border-2 border-gray-300 border-dashed rounded-2xl p-6 flex flex-col items-center justify-center text-gray-600 hover:border-brand hover:text-brand transition-colors mb-6 group shrink-0">
+            <button onclick="nav('screen-camera-barcode')" class="w-full bg-white border-2 border-gray-300 border-dashed rounded-2xl p-6 flex flex-col items-center justify-center text-gray-600 hover:border-brand hover:text-brand hover:scale-[1.02] hover:shadow-md active:scale-[0.98] active:bg-gray-50 transition-all duration-200 mb-6 group shrink-0">
                 <div class="bg-gray-100 group-hover:bg-brand-light p-3 rounded-full mb-3 transition-colors">
                     <span class="material-symbols-outlined text-3xl">barcode_scanner</span>
                 </div>
@@ -762,7 +762,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Manrope:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL,GRAD,opsz@400,1,0,24" rel="stylesheet" />
     <style>
-        /* Đã ép full chiều cao và màu nền để không bị lọt viền trắng */
         html, body { height: 100%; margin: 0; padding: 0; background-color: #e5e7eb; overflow: hidden; }
         body { font-family: 'Manrope', sans-serif; display: flex; justify-content: center; align-items: flex-start; }
         .app-container { width: 100%; max-width: 400px; height: 100%; background-color: #f8faf9; position: relative; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 0 20px rgba(0,0,0,0.1); border-left: 1px solid #d1d5db; border-right: 1px solid #d1d5db; }
