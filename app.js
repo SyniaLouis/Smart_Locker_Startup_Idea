@@ -210,6 +210,9 @@ function saveState() {
 function icon(name, cls = "") {
   return `<span class="material-symbols-outlined ${cls}" aria-hidden="true">${name}</span>`;
 }
+function backButton(route = "home", label = "Quay lại") {
+  return `<button class="back-link" data-route="${route}" type="button">${icon("arrow_back")} ${displayText(label)}</button>`;
+}
 
 function money(value) {
   return `${Number(value || 0).toLocaleString("vi-VN")}đ`;
