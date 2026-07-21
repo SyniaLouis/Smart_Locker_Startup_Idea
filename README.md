@@ -1,3 +1,3 @@
 # Shipmates SmartLocker
 
-Frontend demo được triển khai bằng GitHub Pages.
+Frontend demo for a smart locker in startup competition deployed on GitHub Pages.
